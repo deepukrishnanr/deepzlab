@@ -1,0 +1,64 @@
+	import React, { useState } from "react";
+
+const App = () => {
+  const [list, setList] = useState([]);
+  const addToList = (item) => {
+    let newList = list.concat(item);
+    setList(newList);
+    console.log(newList);
+  };
+  const removeItemFromList = (item) => {
+    let newList = list.filter((value)=>{
+      return value!==item;
+    })
+    setList(newList);
+    console.log(newList);
+  }
+  return (
+    <div>
+      <CheckList addToList={addToList} removeItemFromList={removeItemFromList}/>
+      <SelectedItems list={list} />
+    </div>
+  );
+};
+
+const CheckList = (props) => {
+  const updateList = (e) => {
+    if (e.target.checked) {
+      props.addToList(e.target.value);
+    } else {
+      props.removeItemFromList(e.target.value)
+    }
+  };
+
+  return (
+    <div>
+      <h1>Check boxes</h1>
+      <input type="checkbox" value="HTML" onClick={updateList} />
+      HTML
+      <input type="checkbox" value="CSS" onClick={updateList}/>
+      CSS
+      <input type="checkbox" value="JS" onClick={updateList}/>
+      JS
+    </div>
+  );
+};
+
+const SelectedItems = (props) => {
+  return (
+    <div>
+      <h1>Selected items</h1>
+      <ul>
+        {
+          props.list.map((item, index)=>{
+              return(
+              <li key={index}>{item}</li>
+              )
+          })
+        }
+      </ul>
+    </div>
+  );
+};
+
+export default App;
