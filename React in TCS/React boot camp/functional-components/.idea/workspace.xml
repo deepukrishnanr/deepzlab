@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="005f2e44-e74c-4479-aa3b-85b3ff002ceb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/functional-components.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CommentDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CommentDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class-components/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../class-components/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class-components/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class-components/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class-components/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class-components/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class-components/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../class-components/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class-components/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class-components/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class-components/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,5 +54,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
